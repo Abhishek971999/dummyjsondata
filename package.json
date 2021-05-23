@@ -1,0 +1,31 @@
+{
+  "name": "fakejson",
+  "version": "1.0.0",
+  "description": "CLI tool to generate json file with fake data related to 10+ categories",
+  "main": "src/cli.js",
+  "preferGlobal": true,
+  "bin": "src/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Abhishek971999/fakejson/issues"
+  },
+  "homepage": "https://github.com/Abhishek971999/fakejson#readme",
+  "keywords": [
+    "cli",
+    "dummy-data",
+    "fake-data",
+    "fakejson",
+    "json",
+    "fake"
+  ],
+  "author": "Abhishek Mogaveera",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "dotenv": "^10.0.0"
+  }
+}
